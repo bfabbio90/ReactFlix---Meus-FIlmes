@@ -3,8 +3,6 @@ import api from "../../services/api";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-// URL DA API: /movie/now_playing?api_key=cb9758b2831246c2b6d22e8529f9cc1b&language=pt-BR
-
 export default function Home() {
   const [filmes, setFilmes] = useState([]);
   const [loading, setLoading] = useState(true);
