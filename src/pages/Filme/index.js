@@ -19,7 +19,7 @@ export default function Filme() {
       await api
         .get(`/movie/${id}`, {
           params: {
-            api_key: "90752caf55e8d913252bd92b9a03d9af",
+            api_key: "Sua API",
             language: "pt-BR",
           },
         })
